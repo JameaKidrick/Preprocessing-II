@@ -154,7 +154,8 @@ h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
-p {
+p,
+nav a {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
@@ -168,9 +169,38 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  padding: 2% 0;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.header div {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header nav {
+  width: 48%;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.header nav a {
+  text-decoration: none;
+  color: black;
+}
+.header-intro {
+  border: 2px solid red;
+  padding-bottom: 1%;
+}
 .footer {
   width: 100%;
-  border-top: 2px dashed silver;
+  border-top: 2px dashed #C0C0C0;
   background: #FFEBCD;
 }
 .footer p {
